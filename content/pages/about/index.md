@@ -16,9 +16,7 @@ Welcome to the demo page.
 
 **tabi** is the creation of Óscar Fernández ([welpo](https://github.com/welpo/) on GitHub), initially designed for [his personal site](https://osc.garden/). It is a feature-rich, modern theme that provides sane (and safe) defaults.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DdeXWPF8Dog?si=uohgopfroOAvDKV_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+{{ youtube(id="DdeXWPF8Dog") }}
 
 Looking for detailed instructions or tips on using **tabi**? The [blog](https://welpo.github.io/tabi/blog/) and [archive](https://welpo.github.io/tabi/archive/) sections feature the theme's documentation, offering a variety of articles from feature overviews to step-by-step guides.
 
