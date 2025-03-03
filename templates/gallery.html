@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    {{ macros_page_header::page_header(title=section.title) }}
+
+    <main>
+        <div class="gallery">
+{% for asset in section.assets %}
+    {% if asset is matching(".*\.(jpg|jpeg|png)$") %}
+        {% set image = resize_image(path=asset, width=1280, height=854) %}
+        <a href="{{ get_url(path=asset) }}" target="_blank">
+            <img alt="{{ image.url }}" src="{{ image.url }}">
+        </a>
+    {% endif %}
+{% endfor %}
+        </div>
+    </main>
+
+{% endblock main_content %}

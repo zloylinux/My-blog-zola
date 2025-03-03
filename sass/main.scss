@@ -1,0 +1,55 @@
+@import "/home/zloy_linux/blog//themes/tabi/sass/main.scss";
+
+// main.scss
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.card-image {
+    max-height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// templates/page.html
+
+article {
+    section.body img {
+        border-radius: 5px;
+    }
+
+    div.social-media-card img {
+        border-radius: 5px;
+        margin-bottom: 24px;
+    }
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 4fr));
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 18px;
+    margin-top: 4vmin;
+    padding: 20px 0;
+}
+
+.gallery img {
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: transform 200ms ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
