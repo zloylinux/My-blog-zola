@@ -25,18 +25,18 @@
 @use 'parts/_zola-error.scss';
 
 @font-face {
-    src: local('Inter'),
-        url('fonts/Inter4.woff2') format("woff2");
+    src: local('Open Sans'),
+        url('fonts/OpenSans-Regular.woff2') format("woff2");
     /* Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter). Licensed under the SIL Open Font License, Version 1.1. More information available at: http://scripts.sil.org/OFL */
-    font-family: 'Inter';
+    font-family: 'Open Sans';
     font-display: swap;
 }
 
 @font-face {
-    src: local('Source Serif'),
-        url('fonts/SourceSerif4Variable-Roman.ttf.woff2') format("woff2");
+    src: local('Open Sans'),
+        url('fonts/OpenSans-Regular.woff2') format("woff2");
     /* Copyright 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.adobe.com/). Licensed under the SIL Open Font License, Version 1.1. More information available at: http://scripts.sil.org/OFL */
-    font-family: 'Source Serif';
+    font-family: 'Open Sans';
     font-display: swap;
 }
 
@@ -95,8 +95,8 @@
     --small-layout-width: 200px;
     --paragraph-spacing: max(2.3vmin, 24px);
 
-    --sans-serif-font: 'Helvetica', Arial, sans-serif;
-    --serif-font: 'Helvetica', 'Georgia', serif;
+    --sans-serif-font: 'Open Sans', Arial, sans-serif;
+    --serif-font: 'Open Sans', 'Georgia', serif;
     --code-font: 'Cascadia Code';
 
     scrollbar-color: var(--primary-color) transparent;
@@ -340,6 +340,6 @@ video {
 
 @media all and (min-width: 960px) {
     html {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
